@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'opensans';
+    src: url('fonts/opensans.woff') format('woff2'),
+        url('fonts/opensans.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: opensans, sans-serif;
+    background-color: rgb(255, 165, 127);
+    height: 100vh;
+}
+
+
+.begrepp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.begrepp div {
+    display:flex;
+    flex-direction:column;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+
+}
+
+.begrepp div:hover{
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    right:3px;
+    top:3px;
+}
+
+a,
+a:visited {
+    color: black;
+}
+
+a:hover {
+    background-color: rgb(255, 165, 127);
+}
